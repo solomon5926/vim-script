@@ -8,4 +8,15 @@ let list[3] = 5/2
 echo list 
 echo list[2]
 
-
+"对二维序列进行赋值
+echo '###########################'
+let list1 = [[0,1,2],[3,4,5],[6,7,8]]
+echo list1
+echo list1[0:1]
+echo list1[0]
+let list1[0] = [9,10,11]
+echo list1
+let list1[0][0] = 0
+echo list1
+let list1[0] = ['ww','q','e']
+echo list1
