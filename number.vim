@@ -1,0 +1,2 @@
+echo 0x7f 036
+echo 0x7f -036
