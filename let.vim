@@ -20,3 +20,14 @@ let list1[0][0] = 0
 echo list1
 let list1[0] = ['ww','q','e']
 echo list1
+
+"运算
+echo '##########################'
+let var = 2
+let var += 2
+echo "var += 2 " var
+let var -= 3
+echo "var -= 3 " var 
+let var .= 4
+echo "var .= 4 " var
+
